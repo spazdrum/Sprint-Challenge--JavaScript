@@ -79,7 +79,11 @@ const graduates = [
 Once you have the new array created, sort the universities alphabetically and log the result. */
 const universities = [];
 
-
+for (i = 0; i < graduates.length; i++) {
+  graduates[i].university;
+  universities.push(graduates[i].university);
+  universities.sort();
+}
 
 console.log(universities);
 
